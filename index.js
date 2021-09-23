@@ -10,7 +10,7 @@ class Controller {
                 release: "7 de Julho de 2015",
                 rarity: "Comum, Importado",
                 cars: "Octane ZSR",
-                image: "/assets/images/octane.png",
+                image: "./assets/images/octane.png",
                 color: "#d1caff"
             },
             {
@@ -19,7 +19,7 @@ class Controller {
                 release: "13 de Agosto de 2015",
                 rarity: "Comum, Legado, Exótico, Importado",
                 cars: "Dominus GT",
-                image: "/assets/images/dominus.png",
+                image: "./assets/images/dominus.png",
                 color: "#d3ffd7"
             },
             {
@@ -28,7 +28,7 @@ class Controller {
                 release: "7 de Julho de 2015",
                 rarity: "Importado",
                 cars: "Nenhum",
-                image: "/assets/images/fennec.png",
+                image: "./assets/images/fennec.png",
                 color: "#fffbd7"
             }
         
