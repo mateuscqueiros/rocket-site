@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Slab";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    transition: background-color 0.5s linear;
+}
+
+.container {
+    width: 100%;
+}
+
+.container .wrapper {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+
+
+.wrapper .header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin-top: 26px;
+}
+
+.wrapper .header .logo {
+    width: 145px;
+}
+
+.wrapper .header .logo img {
+    width: 100%;
+}
+
+.wrapper .header .menu {
+    margin: 0;
+    padding: 0;
+    margin-left: 100px;
+    display: flex;
+    width: 344px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.wrapper .header .menu li {
+    list-style: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.wrapper .header .menu span {
+    width: 30px;
+    height: 4px;
+    background-color: #005CB6;
+    position: absolute;
+    bottom: -5px;
+    left: 25px;
+    transition: left 0.3s ease-out;
+}
+
+
+
+
+
+.wrapper .content {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .content .left h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.wrapper .content .left ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper .content .left ul li {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    list-style: none;
+    margin-bottom: 24px;
+}
+
+.wrapper .content .left ul li h2 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.wrapper .content .left ul li span {
+    display: inline;
+    margin-left: 12px;
+    font-size: 20px;
+    line-height: 20px;
+    height: fit-content;
+}
+
+.wrapper .content .right {
+    height: 400px;
+    width: 400px;
+    background-color: #000;
+}
+
+.wrapper .content .right .img {
+    position: relative;
+}
+
+.wrapper .content .right .img img {
+    position: absolute;
+    left: 0;
+    width: 400px;
+    transition: opacity 0.4s ease-out;
+}
